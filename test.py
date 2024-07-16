@@ -1,6 +1,6 @@
 from main import convert, convert_string
 
-input_arg = list(map(convert, "agar chatur_vedii muhaavara wakt san.saar kaise chaan.d an.gur rajaa_i rajai in.saan kya nikhil paanDey rajoguN abhivyaktii imaan_daar kat_i khaa_ii nihaaytii aa_ii".split(" ")))
+input_arg = list(map(convert, "agar chatur_vedi muhaavara wakt san.saar kaise chaan.d an.gur rajaa_i rajai in.saan kya nikhil paanDey rajoguN abhivyakti imaan_daar kat_i khaa_ii nihaayti aa_ii".split(" ")))
 
 output = ['अगर', 'चतुरवेदी', 'मुहावरा', 'वक्त', 'संसार', 'कैसे', 'चांद', 'अंगुर', 'रजाइ', 'रजै', 'इंसान', 'क्या', 'निखिल', 'पान्डेय', 'रजोगुण', 'अभिव्यक्ती', 'इमानदार', 'कतइ', 'खाई', 'निहाय्ती', 'आई']
 

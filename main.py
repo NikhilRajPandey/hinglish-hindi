@@ -56,8 +56,17 @@ def convert_util(word):
             i += matched_consonant[1]
             result += matched_consonant[0]
 
+            # Some Exceptions
             if i == len(word) - 1 and word[-1] == 'a':
                 result += 'ा'
+                break
+
+            elif i == len(word) - 2 and word[-2:] == 'ii':
+                result += 'ि'
+                break
+
+            elif i == len(word) - 1 and word[-1:] == 'i':
+                result += 'ी'
                 break
             
             matched_matra = give_letter(smk, matra_kv, word[i:])
